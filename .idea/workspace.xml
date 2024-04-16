@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff374f82-784d-44f1-aab1-efbf897edbf0" name="Changes" comment="Work still in progress....">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BidBeacon.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/BidBeaconApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Controller/BuyerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/BidRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/BuyerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/CreateAuctionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/ItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/LogoutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/SellerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Request/closeAuctionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Response/BidResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Response/ItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Response/NotificationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Response/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Response/UserLoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/DTOs/Response/UserRegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/AuctionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/BidRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/BuyerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Repository/SellerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/AuctionIsClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/AuctionNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/IncorrectLoginDetailsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/InvalidBidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/InvalidLoginDetailsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/InvalidUsernameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/ItemNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Exceptions/SellerNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/AuctionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/AuctionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/BidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/BidServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/BidBeacon/BidBeaconApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/BidBeacon/Service/AuctionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/BidBeacon/Service/BidServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/BidBeacon/Service/ItemServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/africa/semicolon/BidBeacon/Service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Bid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/africa/semicolon/BidBeacon/Data/Model/Bid.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ej3qNZk5ef2ftxDmqY2Hi83IW3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.AuctionServiceTest.createAuction_shouldReturnAuction_whenValidInput.executor": "Run",
+    "JUnit.AuctionServiceTest.createAuction_shouldThrowException_whenInvalidInput.executor": "Run",
+    "JUnit.AuctionServiceTest.executor": "Run",
+    "JUnit.AuctionServiceTest.testToCreateAuction.executor": "Run",
+    "JUnit.AuctionServiceTest.testToGetAllAuctions.executor": "Run",
+    "JUnit.AuctionServiceTest.testToLogin.executor": "Run",
+    "JUnit.BidServiceTest.testBid.executor": "Run",
+    "Maven.BidBeacon [compile].executor": "Run",
+    "Maven.BidBeacon [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/oladi/IdeaProjects/BidBeacon/src/main/java/africa/semicolon/BidBeacon",
+    "last_opened_file_path": "C:/Users/oladi/IdeaProjects/BidBeacon",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="africa.semicolon.BidBeacon.Service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AuctionServiceTest.createAuction_shouldReturnAuction_whenValidInput">
+    <configuration name="AuctionServiceTest.createAuction_shouldReturnAuction_whenValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BidBeacon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.BidBeacon.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.BidBeacon.Service" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.BidBeacon.Service.AuctionServiceTest" />
+      <option name="METHOD_NAME" value="createAuction_shouldReturnAuction_whenValidInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuctionServiceTest.createAuction_shouldThrowException_whenInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BidBeacon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.BidBeacon.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.BidBeacon.Service" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.BidBeacon.Service.AuctionServiceTest" />
+      <option name="METHOD_NAME" value="createAuction_shouldThrowException_whenInvalidInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuctionServiceTest.testToGetAllAuctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BidBeacon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.BidBeacon.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.BidBeacon.Service" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.BidBeacon.Service.AuctionServiceTest" />
+      <option name="METHOD_NAME" value="testToGetAllAuctions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuctionServiceTest.testToLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BidBeacon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.BidBeacon.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.BidBeacon.Service" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.BidBeacon.Service.AuctionServiceTest" />
+      <option name="METHOD_NAME" value="testToLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidServiceTest.testBid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BidBeacon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="africa.semicolon.BidBeacon.Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="africa.semicolon.BidBeacon.Service" />
+      <option name="MAIN_CLASS_NAME" value="africa.semicolon.BidBeacon.Service.BidServiceTest" />
+      <option name="METHOD_NAME" value="testBid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BidBeaconApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BidBeacon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="africa.semicolon.BidBeacon.BidBeaconApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AuctionServiceTest.createAuction_shouldReturnAuction_whenValidInput" />
+        <item itemvalue="JUnit.AuctionServiceTest.testToLogin" />
+        <item itemvalue="JUnit.AuctionServiceTest.testToGetAllAuctions" />
+        <item itemvalue="JUnit.BidServiceTest.testBid" />
+        <item itemvalue="JUnit.AuctionServiceTest.createAuction_shouldThrowException_whenInvalidInput" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff374f82-784d-44f1-aab1-efbf897edbf0" name="Changes" comment="" />
+      <created>1712404351373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712404351373</updated>
+      <workItem from="1712404352274" duration="2830000" />
+      <workItem from="1712409370732" duration="263000" />
+      <workItem from="1712451797830" duration="3757000" />
+      <workItem from="1712553881259" duration="187000" />
+      <workItem from="1712557265068" duration="3000" />
+      <workItem from="1712576168049" duration="5189000" />
+      <workItem from="1712597012941" duration="3136000" />
+      <workItem from="1712612982526" duration="375000" />
+      <workItem from="1712630195557" duration="5208000" />
+      <workItem from="1712662790802" duration="7505000" />
+      <workItem from="1712670651599" duration="4165000" />
+      <workItem from="1712677800626" duration="4012000" />
+      <workItem from="1712699423416" duration="2120000" />
+      <workItem from="1712722395119" duration="204000" />
+      <workItem from="1712732264685" duration="2521000" />
+      <workItem from="1712782801846" duration="666000" />
+      <workItem from="1712783985501" duration="1751000" />
+      <workItem from="1712785774826" duration="39000" />
+      <workItem from="1712785926595" duration="2757000" />
+      <workItem from="1712812467105" duration="2086000" />
+      <workItem from="1712814896533" duration="410000" />
+      <workItem from="1712815398038" duration="91000" />
+      <workItem from="1712815508551" duration="6231000" />
+      <workItem from="1712916166639" duration="108000" />
+      <workItem from="1712916413908" duration="19000" />
+      <workItem from="1712916666679" duration="27909000" />
+      <workItem from="1712991053796" duration="7542000" />
+      <workItem from="1713003750029" duration="12503000" />
+      <workItem from="1713075382643" duration="6873000" />
+    </task>
+    <task id="LOCAL-00001" summary="auction app build">
+      <option name="closed" value="true" />
+      <created>1712554060938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712554060938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Auction app build">
+      <option name="closed" value="true" />
+      <created>1712581724980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712581724980</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Work still in progress....">
+      <option name="closed" value="true" />
+      <created>1713162465935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713162465936</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="auction app build" />
+    <MESSAGE value="Auction app build" />
+    <MESSAGE value="Work still in progress...." />
+    <option name="LAST_COMMIT_MESSAGE" value="Work still in progress...." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

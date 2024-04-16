@@ -7,13 +7,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
 
 @Data
-@Document
-public class Bid {
+@Document("Payments")
+public class Payment {
     @Id
-    private String id;
-    private Item item;
+    private String paymentId;
     private Buyer bidder;
-    private double bidAmount;
-    private double currentPrice;
-    private LocalDateTime timeOfBid;
+    private Item itemPurchased;
+    private double PaymentAmount;
+    private LocalDateTime paymentDate;
+    private boolean isPaid;
 }
